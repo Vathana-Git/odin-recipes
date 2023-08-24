@@ -7,13 +7,30 @@
     font-size: 50px;
     font-weight: bold;
     text-align: center;
-    background-color: green;
-    color:white
+    background-color: rgb(128, 172, 128);
+    color:white;
+    padding: 50px;
 }
 
-.listing {
+.listing-group {
+    width: 1500px;
+    margin: 0 auto;
+}
+
+.listing-text {
     font-size: 20px;
     font-weight: bold;
+    text-align: center;
+}
+
+.listing-box {
+    display: inline-block;
+    margin: 10px 40px;
+}
+
+.listing-box a { 
+    margin-bottom: 20px;
+    display: inline-block;
 }
 
 .img-preview {
